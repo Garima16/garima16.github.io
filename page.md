@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: resume
 title: Resume
-permalink: /resume/
+#permalink: /resume/-->
 ---
 
-This page will host my resume.
+<!--This page will host my resume.-->
+
+<!--![Resume](/assets/pdf/Resume 2.0.pdf)-->
