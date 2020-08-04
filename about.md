@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-I am Garima Jain. I am currently pursuing M.Tech in AI from University of Hyderabad. I am doing research 
-work in Natural Language Processing. 
+<!-- I am Garima Jain. I am currently pursuing M.Tech in AI from University of Hyderabad. I am doing research 
+work in Natural Language Processing. -->
 
 <!--This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)-->
 
