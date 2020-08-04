@@ -4,7 +4,10 @@ layout: default
 <article class="container px-2 mx-auto mb4" itemscope itemtype="http://schema.org/BlogPosting">
   <h1 class="h1 col-12 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">{{ page.title }}</h1>
   <div class="col-4 sm-width-full mt-1 border-top-thin ">
-    <p class="mb-3 py-2 bold h4"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+    <p class="py-2 bold h4"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">Published on : {{ page.date | date: "%b %-d, %Y" }}</time></p>
+    {% if page.last_updated_on %}
+    <p class="bold h4"><time datetime="{{ page.last_updated_on | date_to_xmlschema }}" itemprop="dateUpdated">Updated on : {{ page.last_updated_on | date: "%b %-d, %Y" }}</time></p>
+    {% endif %}
   </div>
 
   <div class="prose" itemprop="articleBody" align="justify">
